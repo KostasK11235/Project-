@@ -1,0 +1,19 @@
+\\Κλάση: Πρόγραμμα Λεωφορείων
+
+import java.util.ArrayList;
+import java.util.List;
+
+puclic class BusSchedule{
+{
+    public String busProgram;
+
+    public List<String> GetBusProgram() {
+        List<String> busProgram = new ArrayList<>();
+
+        // Add bus schedule strings
+        busProgram.add("Bus 1: Every 15 minutes 8:00 AM - 9:30 PM");
+        busProgram.add("Bus 2: Every 20 minutes 8:00 AM - 9:30 PM");
+        busProgram.add("Bus 3: Every 30 minutes 8:00 AM - 9:30 PM");
+        return busProgram;
+    } 
+} 
