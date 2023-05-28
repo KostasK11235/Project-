@@ -1,6 +1,0 @@
-\\Κλάση: Μετρό
-
-public class Metro{
-String trasportationName = "Subway";
-
-}

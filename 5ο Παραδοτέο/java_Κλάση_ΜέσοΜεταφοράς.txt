@@ -1,5 +1,0 @@
-\\Κλάση: Μέσο Μεταφοράς
-
-public class Transport{
-String trasportationName;
-}

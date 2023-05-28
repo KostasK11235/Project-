@@ -1,5 +1,0 @@
-\\Κλάση: Λεωφορείο
-
-public class Bus{
-  string trasportationName = "Bus";
-}

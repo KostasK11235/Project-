@@ -1,0 +1,30 @@
+\\Κλάση: News Feed
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class NewsFeed{
+
+  public static List<NewsFeedForm> loadNewsAndPage(){
+    List<NewsFeedForm> allNewsFeed = new ArrayList<>();
+    return allNewsFeed;
+  }
+
+  public static void main(String[] args) {
+        // Call the loadNewsAndPage() method to get the list of objects
+        List<NewsFeed> objects = loadNewsAndPage();
+
+        // Iterate over the list and access the objects
+        for (NewsFeed obj : objects) {
+            
+            String this.title = obj.getTitle();
+            String this.comments = obj.getComments();
+            String this.opticFile = obj.getOpticFile();
+
+            System.out.println("Title: " + title + "Comments: " + comments" + "OpticFile: " + opticFile);
+        }
+    }
+
+
+}

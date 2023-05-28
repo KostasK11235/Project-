@@ -1,5 +1,0 @@
-\\Κλάση: Ταξί
-
-public class Taxi{
-String trasportationName = "Taxi";
-}
